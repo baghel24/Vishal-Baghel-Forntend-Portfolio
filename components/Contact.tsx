@@ -21,7 +21,7 @@ const Contact = () => {
           Ready to take <span className="text-purple">your</span> digital presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let's discuss how I can help you achieve your goals.
+          Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <Button

@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl z-10">
-            Hi! I'm Vishal Baghel, a Web Designer & Developer.
+            Hi! I&apos;m Vishal Baghel, a Web Designer & Developer.
           </p>
 
           <a href="#about" className="z-10">

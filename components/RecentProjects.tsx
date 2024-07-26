@@ -44,7 +44,7 @@ const RecentProjects = () => {
        <div className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image src="/bg.png" alt="bgimg" width={20} height={20}/>
                 </div>
                 <img
                   src={"/p1.svg"}
@@ -72,7 +72,7 @@ const RecentProjects = () => {
        <div className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image src="/bg.png" alt="bgimg" width={20} height={20} />
                 </div>
                 <img
                   src={"/p1.svg"}
@@ -95,7 +95,7 @@ const RecentProjects = () => {
           <div className="flex items-center justify-between mt-7 mb-3">
             <div>
               <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
-                <img src={"/next.svg"} alt="icon5" className="p-2" />
+                <Image src={"/next.svg"} alt="icon5" className="p-2" width={20} height={20} />
               </div>
             </div>
             <div className="flex justify-center items-center">

@@ -11,9 +11,9 @@ export const TextGenerateEffect = ({
   className?: string;
 }) => {
   const [scope, animate] = useAnimate();
-  let wordsArray = words.split(" ");
+  const wordsArray = words.split(" "); // Changed let to const
+
   useEffect(() => {
-    console.log(wordsArray);
     animate(
       "span",
       {
@@ -24,7 +24,7 @@ export const TextGenerateEffect = ({
         delay: stagger(0.2),
       }
     );
-  }, [scope.current]);
+  }, [animate, wordsArray]); // Updated dependencies
 
   const renderWords = () => {
     return (
@@ -50,7 +50,7 @@ export const TextGenerateEffect = ({
       {/* mt-4 to my-4 */}
       <div className="my-4">
         {/* remove  text-2xl from the original */}
-        <div className=" dark:text-white text-black leading-snug tracking-wide">
+        <div className="dark:text-white text-black leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
