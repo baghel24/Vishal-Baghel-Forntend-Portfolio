@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import { PinContainer } from "./UI/Pin";
-import { projects } from "@/data";
+// import { projects } from "@/data";
 import Image from "next/image";
 
 const RecentProjects = () => {
@@ -46,10 +46,11 @@ const RecentProjects = () => {
                 >
                   <Image src="/bg.png" alt="bgimg" width={20} height={20}/>
                 </div>
-                <img
+                <Image
                   src={"/p1.svg"}
                   alt="cover"
                   className="z-10 absolute bottom-0"
+                  width={20} height={20} 
                 />
        </div>
        <h1 className="font-bold lg:text-2xl md:text-xl text-base ">
@@ -74,10 +75,11 @@ const RecentProjects = () => {
                 >
                   <Image src="/bg.png" alt="bgimg" width={20} height={20} />
                 </div>
-                <img
+                <Image
                   src={"/p1.svg"}
                   alt="cover"
                   className="z-10 absolute bottom-0"
+                  width={20} height={20} 
                 />
        </div>
        <h1 className="font-bold lg:text-2xl md:text-xl text-base ">
