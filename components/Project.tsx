@@ -28,7 +28,7 @@ const Project = () => {
                   className="relative  h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <image src="/bg.png" alt="bgimg"  width={20} height={20}/>
+                  <Image src="/bg.png" alt="bgimg"  width={20} height={20}/>
                 </div>
                 <Image
                   src={item.img}

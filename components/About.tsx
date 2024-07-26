@@ -32,9 +32,7 @@ const About = () => {
             />
             </a>
          </div>
-      {/* <div className='w-[32rem] '>
-        <img src="/Untitled design (19).png" alt="" />
-      </div> */}
+      
     </section>
   )
 }

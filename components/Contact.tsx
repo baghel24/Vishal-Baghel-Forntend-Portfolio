@@ -8,10 +8,11 @@ const Contact = () => {
     <section className="w-full pt-20 pb-10" id="contact">
       {/* Background grid */}
       {/* <div className="w-full absolute left-0 bottom-32 min-h-96">
-        <img
+        <Image
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50"
+           width={20} height={20}
         />
       </div> */}
 
