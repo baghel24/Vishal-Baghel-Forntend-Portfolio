@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Project from "@/components/Project";
 import RecentProjects from "@/components/RecentProjects";
+import Services from "@/components/Services";
 import Skill from "@/components/Skill";
 import { FloatingNav } from "@/components/UI/FloatingNavbar";
 import { navItems } from "@/data";
@@ -16,6 +17,7 @@ export default function Home() {
       <FloatingNav navItems={navItems} />
        <Hero />
        <About />
+       <Services/>
        <Skill />
        <RecentProjects />
        <Project />

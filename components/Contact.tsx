@@ -32,7 +32,14 @@ const Contact = () => {
         </a>
       </div>
 
-      <div className="flex items-center justify-center py-16 gap-12 border-2 border-Brown/20 mt-9 bg-black-100">
+      <div className="flex items-center justify-center py-16 gap-12 border-2 border-Brown/20 mt-9 bg-black-100"
+      style={{
+        backdropFilter: "blur(20px) saturate(150%)",
+        backgroundColor: "rgba(35, 35, 35, 0.5)",  /* Add transparency */
+        borderRadius: "12px",
+        border: "1px solid rgba(255, 255, 255, 0.125)",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)" /* Optional: add a shadow for depth */
+      }}>
         <div className="w-full max-w-md  rounded-lg p-4 shadow-md">
           <h2 className="text-2xl font-bold text-Brown mb-4">Contact Form</h2>
           <form>
