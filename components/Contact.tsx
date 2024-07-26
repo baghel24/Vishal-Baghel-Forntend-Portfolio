@@ -81,7 +81,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <div className="border-2 w-[45%]">
+        <div className="border-2 lg:w-[45%] md:w-[45%]  w-0">
           <Image src="/bgimg" alt="bgimg"  width={20} height={20}/>
         </div>
       </div>

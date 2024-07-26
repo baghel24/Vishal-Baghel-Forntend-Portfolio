@@ -70,7 +70,11 @@ export const FloatingNav = ({
           }}
           
       >
+        <div className=" ">
+          <h1>Vishal.</h1>
+        </div>
         {navItems.map((navItem: any, idx: number) => (
+          
           <Link
             key={`link=${idx}`}
             href={navItem.link}

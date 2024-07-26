@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <section id="about" className="w-full py-20 flex gap-28">
-      <div className="w-[50%]">
+    <section id="about" className="w-full py-15 flex  gap-28 mb-16">
+      <div className="lg:w-[50%]">
         <h1 className="text-DarKBrown/80 text-[40px] md:text-4xl lg:text-5xl mb-8">About</h1>
         
         <p className="text-Brown mb-6">Hi, I&apos;m Vishal Baghel, a frontend developer specializing in React.js and Tailwind CSS. 

@@ -4,13 +4,15 @@ import { GlareCard } from "./UI/glare-card";
 
 const Services = () => {
   return (
-    <section id="projects" className="py-15 mb-32">
+    <section id="projects" className="py-15 ">
       <h1 className="heading">
         What can I Do for{" "}<br></br>
         <span className="text-DarKBrown"> your Needs</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-36 mt-16 mx-5 ">
-      <GlareCard className="flex flex-col items-start justify-end py-8 px-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-36 mt-16 mx-5 " >
+      <GlareCard className="flex flex-col items-start justify-end py-8 px-6"
+      >
+        {/* <img src="/Screenshot 2024-07-26 235611.png" alt="" /> */}
         <p className="font-bold text-white text-lg">1. WEB DESIGN </p>
         <p className="font-normal text-base text-Brown mt-4">
         Visually stunning web designs that captivate your audience by blending your brand voice and customer needs.

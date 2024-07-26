@@ -12,6 +12,7 @@
 // figma,
 // docker,} from "";
 export const navItems = [
+    
     { name: "Home", link: "#hero" },
     { name: "About", link: "#about" },
     { name: "Skills", link: "#skills" },
@@ -86,28 +87,30 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Hannah Bank (Bank Website)",
+      pintitle: "HannahBank",
+      des: "It is a visually appealing and user-centric React frontend for a modern bank website with Tailwind CSS, prioritizing optimal user experience; design enhancements spearheaded to a 30% boost in customer retention and a 20% increase in conversion rates.",
+      img: "/Screenshot 2024-07-26 235611.png",
+      iconLists: ["/re.svg", "/tail.svg",  "/fm.svg"],
+      link: "https://hannah-bank.netlify.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Cryptoverse",
+      des: "ngineered a cryptocurrency app using React.js and Redux Toolkit, allowing real-time data visualization and portfolio management; elevating clients Participation by 22% with streamlined market trends, secure transactions, and personalized financial insights.",
+      img: "",
+      iconLists: ["/re.svg", "/tail.svg", ],
+      link: "",
     },
 
     {
       id: 3,
       title: "Animated Apple Iphone 3D Website",
+      pintitle: "CurrentlyWorking",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "",
     },
   ];
   
