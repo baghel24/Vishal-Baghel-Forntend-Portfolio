@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Button from './Button'
 import { Spotlight } from './UI/Spotlight'
 import { TextGenerateEffect } from './UI/TextGenerateEffect'
@@ -31,7 +32,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center relative">
           <div className="w-[32rem] mt-[-8rem] absolute top-0 left-1/2 transform -translate-x-1/2 z-0">
-            <img src="/Untitled design (19).png" alt="" />
+            <Image src="/Untitled design (19).png" alt=""  width={600} height={20} />
           </div>
 
           <div className="z-10 mt-[12rem]">

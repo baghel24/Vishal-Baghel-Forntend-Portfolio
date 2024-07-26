@@ -2,6 +2,7 @@ import React from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import { PinContainer } from "./UI/Pin";
 import { projects } from "@/data";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -21,7 +22,7 @@ const RecentProjects = () => {
           <div className="flex items-center justify-between mt-7 mb-3">
             <div>
               <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
-                <img src={"/next.svg"} alt="icon5" className="p-2" />
+                <Image src={"/next.svg"} alt="icon5" className="p-2"  width={20} height={20}/>
               </div>
             </div>
             <div className="flex justify-center items-center">

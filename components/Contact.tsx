@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaLocationArrow } from "react-icons/fa6";
 import Button from "./Button";
+import Image from 'next/image';
 
 const Contact = () => {
   return (
@@ -73,7 +74,7 @@ const Contact = () => {
           </form>
         </div>
         <div className="border-2 w-[45%]">
-          <img src="/bgimg" alt="bgimg" />
+          <Image src="/bgimg" alt="bgimg"  width={20} height={20}/>
         </div>
       </div>
     </section>
