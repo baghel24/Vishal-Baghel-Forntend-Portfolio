@@ -231,88 +231,53 @@ export const navItems = [
   ];
 
   export const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
     {
-      name: "CSS 3",
-      icon: "/css.png",
+      name: "HTML5",
+      icon: "/html-1.svg",
+    },
+    {
+      name: "CSS3",
+      icon: "/css-3.svg",
     },
     {
       name: "JavaScript",
-      icon: "/javascript.png",
+      icon: "/logo-javascript.svg",
     },
     {
-      name: "CSS 3",
-      icon: "/css.png",
+      name: "TypeScript",
+      icon: "/ts.svg",
     },
     {
-      name: "JavaScript",
-      icon: "/javascript.png",
+      name: "React",
+      icon: "/re.svg",
     },
     {
-      name: "CSS 3",
-      icon: "/css.png",
+      name: "TailwindCss",
+      icon: "/tail.svg",
     },
     {
-      name: "JavaScript",
-      icon: "/javascript.png",
+      name: "Next.js",
+      icon: "/next.svg",
     },
     {
-      name: "CSS 3",
-      icon: "/css.png",
+      name: "C++",
+      icon: "/c++.svg",
     },
     {
-      name: "JavaScript",
-      icon: "/javascript.png",
+      name: "Pthon",
+      icon: "/python-5.svg",
     },
     {
-      name: "CSS 3",
-      icon: "/css.png",
+      name: "java",
+      icon: "/java-14.svg",
     },
     {
-      name: "JavaScript",
-      icon: "/javascript.png",
+      name: "Redux",
+      icon: "/redux.svg",
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
-    // {
-    //   name: "React JS",
-    //   icon: reactjs,
-    // },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    
   ];
+
+  export const movingitem =[
+    { quote: "string", name: "string", title: "string", }
+  ]

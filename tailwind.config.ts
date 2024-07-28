@@ -161,6 +161,15 @@ const config = {
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
     },
+    animation: {
+      'infinite-scroll': 'infinite-scroll 20s linear infinite',
+  },
+  keyframes: {
+      'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-55%)' },
+      }
+  }   
   },
   plugins: [
     require("tailwindcss-animate"),

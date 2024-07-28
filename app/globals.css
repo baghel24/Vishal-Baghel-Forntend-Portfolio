@@ -87,3 +87,55 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+.orbit {
+  border-radius: 50%;
+  border-style: solid;
+}
+.orbit-1 {
+  width: 650px;
+  height: 200px;
+  border-width: 1px;
+  border-color: #94713D; /* Gold color */
+}
+.orbit-2 {
+  width: 570px;
+  height: 200px;
+  border-width: 1px;
+  border-color: #94713D; /* Orange color */
+}
+.orbit-3 {
+  width: 500px;
+  height: 200px;
+  border-width: 1px;
+  border-color: #94713D; /* Dark orange color */
+}
+.orbit-4 {
+  width: 400px;
+  height: 200px;
+  /* border-width: 1px; */
+  /* background: radial-gradient(circle, rgba(137,110,70,1) 50%, rgba(125,94,54,1) 100%); */
+}
+.orbit-5 {
+  width: 135px;
+  height: 135px;
+  margin-bottom: 350px;
+  /* border-width: 1px; */
+  /* background: radial-gradient(circle, rgba(137,110,70,1) 50%, rgba(125,94,54,1) 100%); */
+}
+
+.curve-container {
+  position: relative;
+  width: 120px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+}
+.curve-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.curve-svg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

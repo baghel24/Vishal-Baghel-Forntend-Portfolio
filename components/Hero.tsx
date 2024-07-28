@@ -3,7 +3,7 @@ import Button from './Button'
 import { Spotlight } from './UI/Spotlight'
 import { TextGenerateEffect } from './UI/TextGenerateEffect'
 import { GoArrowUpRight } from "react-icons/go";
-import { BoxesCore } from './UI/background-boxes';
+
 
 const Hero = () => {
   return (
@@ -47,7 +47,7 @@ const Hero = () => {
             Hi! I&apos;m Vishal Baghel, a Web Designer & Developer.
           </p>
 
-          <a href="#about" className="z-10">
+          <a href="#projects" className="z-10">
             <Button
               title="Show my work"
               icon={<GoArrowUpRight/>}

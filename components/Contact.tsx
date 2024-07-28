@@ -2,6 +2,7 @@ import React from 'react';
 import { FaLocationArrow } from "react-icons/fa6";
 import Button from "./Button";
 import Image from 'next/image';
+import { StarsBackground } from './UI/stars-background';
 
 const Contact = () => {
   return (
@@ -32,7 +33,7 @@ const Contact = () => {
         </a>
       </div>
 
-      <div className="flex items-center justify-center py-16 gap-12 border-2 border-Brown/20 mt-9 bg-black-100"
+      <div className="flex items-center justify-center py-16 gap-36 border-2 border-Brown/20 mt-9 bg-black-100"
       style={{
         backdropFilter: "blur(20px) saturate(150%)",
         backgroundColor: "rgba(35, 35, 35, 0.5)",  /* Add transparency */
@@ -40,6 +41,7 @@ const Contact = () => {
         border: "1px solid rgba(255, 255, 255, 0.125)",
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)" /* Optional: add a shadow for depth */
       }}>
+        <StarsBackground/>
         <div className="w-full max-w-md  rounded-lg p-4 shadow-md">
           <h2 className="text-2xl font-bold text-Brown mb-4">Contact Form</h2>
           <form>
@@ -81,8 +83,8 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <div className="border-2 lg:w-[45%] md:w-[45%]  w-0">
-          <Image src="/bgimg" alt="bgimg"  width={20} height={20}/>
+        <div className=" lg:w-[45%] md:w-[45%]  w-0">
+          <Image src="/Vishal (1).png" alt="coimg"  width={500} height={600}/>
         </div>
       </div>
     </section>
