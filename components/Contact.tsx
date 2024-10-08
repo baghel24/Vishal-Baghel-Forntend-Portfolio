@@ -24,7 +24,7 @@ const Contact = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:">
           <Button
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -84,7 +84,7 @@ const Contact = () => {
           </form>
         </div>
         <div className=" lg:w-[45%] md:w-[45%]  w-0">
-          <Image src="/Vishal (1).png" alt="coimg"  width={500} height={600}/>
+          <Image src="/Vishal (1).png" alt="coimg"  width={500} height={600} style={{ objectFit: 'contain' }}/>
         </div>
       </div>
     </section>

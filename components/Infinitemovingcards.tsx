@@ -21,7 +21,7 @@ const Infinitemovingcards = () => {
                     <ul x-ref="logos" className="flex  items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll ">
                     {technologies.map((tech, index) => (
               <li key={index} className="  mx-2 flex  items-center justify-center gap-6  ">
-                <Image src={tech.icon} alt={tech.name} width={50} height={50} className="mb-" />
+                <Image src={tech.icon} alt={tech.name} width={50} height={50} style={{ objectFit: 'contain' }} className="mb-" />
                 <span className="text-lg text-Brown">{tech.name}</span>
               </li>
             ))}

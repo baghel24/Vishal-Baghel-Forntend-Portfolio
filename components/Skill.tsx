@@ -26,7 +26,7 @@ const Skill = () => {
         </div>
             {/* orbital */}
         <div className=' mt-16'>
-          <Image src="/Screenshot 2024-07-27 235742.png" alt="img" width={700} height={500} className='mx-5'/>
+          <Image src="/Screenshot 2024-07-27 235742.png" alt="img" width={700} height={500} style={{ objectFit: 'contain' }} className='mx-5'/>
         </div>
           
           {/* <div className=" mx-64 mt-16 curve-container">

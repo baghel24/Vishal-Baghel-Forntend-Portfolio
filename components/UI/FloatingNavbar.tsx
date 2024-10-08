@@ -71,10 +71,9 @@ export const FloatingNav = ({
           }}
           
       >
-        <a href="/" className=" drop-shadow-2xl">
-          <Image src="/Vishal (3).png" alt="logo"  width={80} height={10}/>  
-         
-         </a>
+        <a href="/" className="drop-shadow-2xl">
+  <Image src="/Vishal (3).png" alt="logo" width={80} height={10} style={{ objectFit: 'contain' }} />  
+</a>
         {navItems.map((navItem: any, idx: number) => (
           
           <Link

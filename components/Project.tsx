@@ -5,6 +5,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./UI/Pin";
 import Image from "next/image";
+import Button from "./Button";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Project = () => {
   return (
@@ -67,12 +69,15 @@ const Project = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                <div className="flex justify-center items-center mt-2">
+            <a href={item.link}  className="z-10">
+            <Button
+              title="Check Live Site"
+              icon={<GoArrowUpRight/>}
+              position="right"
+            />
+          </a>
+            </div>
               </div>
             </PinContainer>
           </div>

@@ -15,16 +15,18 @@ const steps = [
   },
   {
     number: 3,
-    title: 'DEVELOPMENT',
-    subtitle: 'MORE MAGIC',
-    description: 'In this step, we breathe life into your new high-end design. You will receive a custom-built website using a modular web design system and CMS integration. Animations will add the necessary flair to your site and set you apart from the boring competition.',
-  },
-  {
-    number: 4,
     title: 'WEB DESIGN',
     subtitle: 'SOME MAGIC',
     description: 'Now comes the magic. Based on the previously developed concept, I create a high-end screen design perfectly tailored to your brand. A web design that sets you apart from your competition, fits your target audience ideally, and provides an excellent user experience.',
   },
+  {
+    number: 4,
+    title: 'DEVELOPMENT',
+    subtitle: 'MORE MAGIC',
+    description: 'In this step, we breathe life into your new high-end design. You will receive a custom-built website using a modular web design system and CMS integration. Animations will add the necessary flair to your site and set you apart from the boring competition.',
+  },
+  
+  
 ];
 
 const Approach = () => {
@@ -32,7 +34,7 @@ const Approach = () => {
     <div className="py-20">
       <p className="text-center text-Brown">THE PROCESS</p>
       <h1 className="heading py-3">
-        Your Website <span className="text-DarKBrown">in 5 steps</span>
+        Your Website <span className="text-DarKBrown">in 4 steps</span>
       </h1>
       <p className="text-center text-Brown">
         Our process ensures that we create a website
