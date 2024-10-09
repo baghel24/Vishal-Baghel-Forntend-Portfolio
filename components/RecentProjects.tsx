@@ -27,6 +27,9 @@ const RecentProjects = () => {
                 <Image src={"/re.svg"} alt="icon5" className="p-2" width={100} height={100} />
               </div>
               <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
+                <Image src={"/logo-javascript.svg"} alt="icon5" className="p-2" width={100} height={100} />
+              </div>
+              <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
                 <Image src={"/tail.svg"} alt="icon5" className="p-2" width={100} height={100} />
               </div>
               <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
@@ -95,6 +98,9 @@ const RecentProjects = () => {
               {/* Icons */}
               <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
                 <Image src={"/re.svg"} alt="icon5" className="p-2" width={100} height={100} />
+              </div>
+              <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
+                <Image src={"/logo-javascript.svg"} alt="icon5" className="p-2" width={100} height={100} />
               </div>
               <div className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
                 <Image src={"/tail.svg"} alt="icon5" className="p-2" width={100} height={100} />

@@ -91,16 +91,16 @@ export const navItems = [
       pintitle: "HannahBank",
       des: "It is a visually appealing and user-centric React frontend for a modern bank website with Tailwind CSS, prioritizing optimal user experience; design enhancements spearheaded to a 30% boost in customer retention and a 20% increase in conversion rates.",
       img: "/Screenshot 2024-07-26 235611.png",
-      iconLists: ["/re.svg", "/tail.svg",  "/fm.svg"],
+      iconLists: ["/re.svg","/logo-javascript.svg", "/tail.svg",  "/fm.svg"],
       link: "https://hannah-bank.netlify.app/",
     },
     {
       id: 2,
-      title: "Cryptoverse",
-      des: "ngineered a cryptocurrency app using React.js and Redux Toolkit, allowing real-time data visualization and portfolio management; elevating clients Participation by 22% with streamlined market trends, secure transactions, and personalized financial insights.",
+      title: "Voizy",
+      des: "The AI video editing app automates the video creation process, offering advanced tools for seamless editing, effects, and enhancements. It simplifies content production by leveraging machine learning to assist with tasks like scene detection, transitions, and audio adjustments.",
       img: "",
-      iconLists: ["/re.svg", "/tail.svg", ],
-      link: "",
+      iconLists: ["/re.svg","/logo-javascript.svg", "/tail.svg", "/fm.svg"],
+      link: "https://zoraedits.netlify.app/",
     },
 
     {
@@ -109,7 +109,7 @@ export const navItems = [
       pintitle: "CurrentlyWorking",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/re.svg","/logo-javascript.svg","/tail.svg", "/three.svg"],
       link: "",
     },
   ];
