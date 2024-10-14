@@ -96,9 +96,10 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Voizy",
+      title: "VOIZY",
+      pintitle: "Voizy",
       des: "The AI video editing app automates the video creation process, offering advanced tools for seamless editing, effects, and enhancements. It simplifies content production by leveraging machine learning to assist with tasks like scene detection, transitions, and audio adjustments.",
-      img: "",
+      img: "/VOIZY.png",
       iconLists: ["/re.svg","/logo-javascript.svg", "/tail.svg", "/fm.svg"],
       link: "https://zoraedits.netlify.app/",
     },
