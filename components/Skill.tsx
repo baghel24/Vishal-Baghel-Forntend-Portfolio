@@ -17,7 +17,7 @@ const Skill = () => {
         <div className="flex flex-wrap items-center justify-center  h-[10rem] w-[45rem] p-4 mt-[3rem] px-24 lg:px-0 md:px-0">
           <ul className="list-none flex flex-wrap justify-center  ">
             {technologies.map((tech, index) => (
-              <li key={index} className="mb-5  mx-4 flex flex-col items-center justify-center p-4 border-2 border-Brown/40 rounded-full shadow-md shadow-Brown/50">
+              <li key={index} className="mb-5  mx-4 flex flex-col items-center justify-center p-4 border-2 border-Brown/40 rounded-full shadow-md shadow-Brown/50 hover:border-2 hover:border-white">
                 <Image src={tech.icon} alt={tech.name} width={40} height={50} className="mb-" />
                 {/* <span className="text-sm">{tech.name}</span> */}
               </li>

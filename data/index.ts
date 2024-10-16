@@ -111,7 +111,7 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/re.svg","/logo-javascript.svg","/tail.svg", "/three.svg"],
-      link: "",
+      link: "https://myphone-15-pro-max.netlify.app/",
     },
   ];
   
@@ -215,18 +215,17 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
+      url:"https://github.com/baghel24",
       img: "/git.svg",
     },
     {
       id: 2,
+      url:"https://x.com/VishalBaghel460",
       img: "/twit.svg",
     },
     {
       id: 3,
-      img: "/link.svg",
-    },
-    {
-      id: 4,
+      url:"https://www.linkedin.com/in/vishal-baghel-86192b237/",
       img: "/link.svg",
     },
   ];

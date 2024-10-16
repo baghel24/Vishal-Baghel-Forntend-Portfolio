@@ -25,13 +25,16 @@ const About = () => {
           ))}
         </div>
         
-        <a href="#about">
+        <a href="#projects">
           <Button 
             title="Hire Me"
             icon={<GoArrowUpRight />}
             position="right"
           />
         </a>
+      </div>
+      <div className='w-[40%]'>
+   <Image src="/Profile.png" alt="icon" width={450} height={400} style={{ objectFit: 'contain' }} className='-mt-32 ml-24'/>
       </div>
     </section>
   );
